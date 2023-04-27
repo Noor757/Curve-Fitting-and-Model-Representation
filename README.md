@@ -9,12 +9,12 @@ for simple linear regression, the model has two parameters  𝑤 and  𝑏 whose
 once a model's parameters have been determined, the model can be used to make predictions on novel data.
 
 Notations:
-x               Training Example feature values (in this code - Size (1000 sqft))	                              x_train
-y               Training Example targets (in this code - Price (1000s of dollars)).)	                          y_train
-𝑥(𝑖) ,  𝑦(𝑖)                               𝑖𝑡ℎ  Training Example	                                                x_i, y_i
-m                                     Number of training examples                                                 m
-𝑤                                              parameter: weight                                                  w
-𝑏                                              parameter: bias                                                     b
-𝑓𝑤,𝑏(𝑥(𝑖))      	The result of the model evaluation at  𝑥(𝑖) parameterized by  𝑤,𝑏:  𝑓𝑤,𝑏(𝑥(𝑖))=𝑤𝑥(𝑖)+𝑏          	f_wb
+x               Training Example feature values (in this code - Size (1000 sqft))	                              x_train, 
+y               Training Example targets (in this code - Price (1000s of dollars)).)	                          y_train, 
+𝑥(𝑖) ,  𝑦(𝑖)                               𝑖𝑡ℎ  Training Example	                                                (x_i, y_i), 
+m                                     Number of training examples                                                 m, 
+𝑤                                              parameter: weight                                                  w, 
+𝑏                                              parameter: bias                                                     b, 
+𝑓𝑤,𝑏(𝑥(𝑖))      	The result of the model evaluation at  𝑥(𝑖) parameterized by  𝑤,𝑏:  𝑓𝑤,𝑏(𝑥(𝑖))=𝑤𝑥(𝑖)+𝑏          	f_wb.
  
 
